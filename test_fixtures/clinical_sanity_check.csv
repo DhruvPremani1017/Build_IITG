@@ -1,0 +1,5 @@
+Age,Gender,Intraocular Pressure (IOP),Cup-to-Disc Ratio (CDR),Family History,Visual Field Test Results,Pachymetry,Visual Symptoms,Glaucoma Type
+58,Female,22.5,0.72,Yes,Abnormal,540,Blurred vision,Normal-Tension Glaucoma
+45,Male,14.0,0.35,No,Normal,555,None,Secondary Glaucoma
+70,Male,28.0,0.8,Yes,Abnormal,500,"Vision loss, Halos around lights",Primary Open-Angle Glaucoma
+25,Female,13.0,0.25,No,Normal,580,None,
