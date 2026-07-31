@@ -1,0 +1,52 @@
+{
+  "weight_clinical": 1.0,
+  "threshold": 0.47,
+  "train": {
+    "accuracy": 0.49966666666666665,
+    "balanced_accuracy": 0.49574901403705435,
+    "precision": 0.5021008403361344,
+    "recall": 0.9477858559153999,
+    "specificity": 0.04371217215870881,
+    "f1": 0.6564431219958801,
+    "roc_auc": 0.4982802041575567,
+    "mcc": -0.0198853970640381,
+    "brier_score": 0.36150154635312043,
+    "confusion_matrix": {
+      "tn": 130,
+      "fp": 2844,
+      "fn": 158,
+      "tp": 2868
+    }
+  },
+  "holdout": {
+    "accuracy": 0.494,
+    "balanced_accuracy": 0.4985398539853986,
+    "precision": 0.4942348008385744,
+    "recall": 0.9525252525252526,
+    "specificity": 0.04455445544554455,
+    "f1": 0.6507936507936508,
+    "roc_auc": 0.4911811181118112,
+    "mcc": -0.006969818492839509,
+    "brier_score": 0.36885024911724895,
+    "confusion_matrix": {
+      "tn": 45,
+      "fp": 965,
+      "fn": 47,
+      "tp": 943
+    }
+  },
+  "spec_sample_check": [
+    {
+      "probability": 0.974311591039664,
+      "label": 1,
+      "risk_band": "High",
+      "triage": "Prioritise specialist review"
+    },
+    {
+      "probability": 0.29500771191147396,
+      "label": 0,
+      "risk_band": "Low",
+      "triage": "Routine monitoring"
+    }
+  ]
+}
